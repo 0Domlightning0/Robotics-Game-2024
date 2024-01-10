@@ -80,8 +80,15 @@ public:
 			// Aiming and Shooting 
 			if (Scount >= RandShootingTime) {
 				cout << "Shot Fired!" << endl;
-				PointsScored += 2;
-				PiecesScored += 1;
+				if (rand() % (100) < (10 * Consistancy + 45)) {
+					PointsScored += 2;
+					PiecesScored += 1;
+					cout << "point scored!" << endl;
+				}
+				else {
+					cout << "missed!" << endl;
+				}
+				
 				Count = 0;
 				Scount = 0;
 				ShootingR = false;
@@ -109,10 +116,10 @@ int main()
 	srand(time(NULL));
 
 	Shooter Shooter1;
-	Shooter1.AvgPickupTime = 3;
-	Shooter1.AvgShootingTime = 3;
+	Shooter1.AvgPickupTime = 5;
+	Shooter1.AvgShootingTime = 5;
 	Shooter1.AvgTravelTime = 6;
-	Shooter1.Consistancy = 3;
+	Shooter1.Consistancy = 4;
 	cout << endl;
 	cout << endl;
 	cout << "This bot Scored:" << Shooter1.ShooterGameSim() << " Points" << endl;
