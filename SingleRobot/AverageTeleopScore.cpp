@@ -26,15 +26,16 @@ public:
 
 	bool ShootingR = false, Amped = false;
 
-	int ShooterGameSim() {
+	int ShooterGameSimTele() {
 
 		// Creates a Random shooting Time 
 		// ( (random number % range) + Variable )
-		int RandShootingTime = (((rand() % (7 - Consistancy)) + AvgShootingTime + (5 - Consistancy)));
+		int RandShootingTime = (((rand() % (6 - Consistancy)) + AvgShootingTime + (4 - Consistancy)));
 
-		int RandTravelTime = (((rand() % (7 - Consistancy)) + AvgShootingTime + (5 - Consistancy)));
+		int RandTravelTime = (((rand() % (6 - Consistancy)) + AvgTravelTime + (4 - Consistancy)));
 
-		int RandPickupTime = (((rand() % (7 - Consistancy)) + AvgShootingTime + (5 - Consistancy)));
+		int RandPickupTime = (((rand() % (6 - Consistancy)) + AvgPickupTime + (4 - Consistancy)));
+
 
 		PointsScored = 0;
 		Count = 0;
@@ -43,15 +44,7 @@ public:
 		HaveRing = false;
 		AtSource = false;
 
-		//
-
-
-
 		for (int i = 0; i < time; i++) {
-
-			int RandShootingTime = ((rand() % (7 - Consistancy) + AvgShootingTime));
-
-
 
 			Count += 1;
 
@@ -91,8 +84,15 @@ public:
 			// Aiming and Shooting 
 			if (Scount >= RandShootingTime) {
 				//cout << "Shot Fired!" << endl;
-				PointsScored += 2;
-				PiecesScored += 1;
+				if (rand() % (100) < (10 * Consistancy + 45)) {
+					PointsScored += 2;
+					PiecesScored += 1;
+					//cout << "point scored!" << endl;
+				}
+				else {
+					//cout << "missed!" << endl;
+				}
+				
 				Count = 0;
 				Scount = 0;
 				ShootingR = false;
@@ -120,20 +120,21 @@ int main()
 	srand(time(NULL));
 
 	Shooter Shooter1;
-	Shooter1.AvgPickupTime = 3;
-	Shooter1.AvgShootingTime = 3;
-	Shooter1.AvgTravelTime = 6;
-	Shooter1.Consistancy = 3;
-	cout << "This bot Scored:" << Shooter1.ShooterGameSim() << endl;
-	cout << Shooter1.PiecesScored << endl;
+	Shooter1.AvgPickupTime = 1;
+	Shooter1.AvgShootingTime = 1;
+	Shooter1.AvgTravelTime = 3;
+	Shooter1.Consistancy = 4;
+
+	int Iterations = 10000;
 
 
 	double Total = 0;
 
-	for (int i = 0; i < 1000; i++) {
-		Total += Shooter1.ShooterGameSim();
-		cout << Total << endl;
+	for (int i = 0; i < Iterations; i++) {
+		Total += Shooter1.ShooterGameSimTele();
+		//cout << Total << endl;
 	}
-	cout << (Total/1000);
+	cout << "This robot will average " << (Total / Iterations) << " Points in tele-op from scoring rings in the speaker";
+	
 }
 
