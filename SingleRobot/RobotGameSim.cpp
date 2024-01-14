@@ -8,19 +8,19 @@
 #include <random>
 #include <windows.h>
 
-using namespace std; 
+using namespace std;
 
 
 class Robot {
 public:
 
-	int AvgPickupTime, AvgTravelTime, time = 135, Count = 0, Pcount = 0, PointsScored = 0, PiecesScored = 0; 
+	int AvgPickupTime, AvgTravelTime, time = 135, Count = 0, Pcount = 0, PointsScored = 0, PiecesScored = 0;
 
 	bool HaveRing = false, AtSource = false;
 };
 
 // Robot that only Shoots in the speaker
-class Shooter: public Robot{
+class Shooter : public Robot {
 public:
 	int AvgShootingTime, Accuracy, Scount = 0, Consistancy;
 
@@ -30,11 +30,11 @@ public:
 
 		// Creates a Random shooting Time 
 		// ( (random number % range) + Variable )
-		int RandShootingTime = (((rand() % (7 - Consistancy)) + AvgShootingTime + (5 - Consistancy)));
+		int RandShootingTime = (((rand() % (6 - Consistancy)) + AvgShootingTime + (4 - Consistancy)));
 
-		int RandTravelTime = (((rand() % (7 - Consistancy)) + AvgShootingTime + (5 - Consistancy)));
+		int RandTravelTime = (((rand() % (6 - Consistancy)) + AvgShootingTime + (4 - Consistancy)));
 
-		int RandPickupTime = (((rand() % (7 - Consistancy)) + AvgShootingTime + (5 - Consistancy)));
+		int RandPickupTime = (((rand() % (6 - Consistancy)) + AvgShootingTime + (4 - Consistancy)));
 
 		for (int i = 0; i < time; i++) {
 
@@ -47,15 +47,15 @@ public:
 			// Travelling to Source
 			if (Count >= RandTravelTime and HaveRing == false) {
 				AtSource = true;
-				
+
 			}
 
 			// Picking Up Piece
 			if (AtSource == true and HaveRing == false) {
 				cout << "Picking up" << endl;
 				Pcount += 1;
-				
-				
+
+
 			}
 			// Picking up from Source
 			if (Pcount >= RandPickupTime and HaveRing == false) {
@@ -66,7 +66,7 @@ public:
 				Pcount = 0;
 			}
 
-	        // Travelling back and getting ready to Shoot
+			// Travelling back and getting ready to Shoot
 			if (Count >= RandTravelTime and HaveRing == true) {
 				ShootingR = true;
 			}
@@ -80,15 +80,15 @@ public:
 			// Aiming and Shooting 
 			if (Scount >= RandShootingTime) {
 				cout << "Shot Fired!" << endl;
-				if (rand() % (100) < (10 * Consistancy + 45)) {
+				if (rand() % (100) < (10 * Consistancy + 55)) {
 					PointsScored += 2;
 					PiecesScored += 1;
-					cout << "point scored!" << endl;
+					cout << "Point scored!" << endl;
 				}
 				else {
-					cout << "missed!" << endl;
+					cout << "Missed Ring!" << endl;
 				}
-				
+
 				Count = 0;
 				Scount = 0;
 				ShootingR = false;
@@ -99,7 +99,7 @@ public:
 				cout << "Driving" << endl;
 			}
 
-			Sleep(100);
+			Sleep(300);
 		}
 		return PointsScored;
 	}
@@ -127,6 +127,5 @@ int main()
 	cout << endl;
 	cout << "This bot Scored:" << Shooter1.PiecesScored << " Pieces" << endl;
 
-	
-}
 
+}
