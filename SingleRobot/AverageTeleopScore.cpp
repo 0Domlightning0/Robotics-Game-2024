@@ -84,13 +84,13 @@ public:
 			// Aiming and Shooting 
 			if (Scount >= RandShootingTime) {
 				//cout << "Shot Fired!" << endl;
-				if (rand() % (100) < (10 * Consistancy + 45)) {
+				if (rand() % (100) < (10 * Consistancy + 55)) {
 					PointsScored += 2;
 					PiecesScored += 1;
-					//cout << "point scored!" << endl;
+					//cout << "Point scored!" << endl;
 				}
 				else {
-					//cout << "missed!" << endl;
+					//cout << "Missed!" << endl;
 				}
 				
 				Count = 0;
