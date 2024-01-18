@@ -6,6 +6,11 @@ Average Celt-X Ontario bot:
 
 
 
+
+
+
+
+
 ## Score vs Avg times (Travel time is counted as time travelling one way)
 Score 5:   Average Pickup: 6.62286   Average Shooting: 6.65143    Average Travel: 7.93143
 
