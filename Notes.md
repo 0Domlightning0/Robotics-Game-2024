@@ -1,8 +1,10 @@
-Notes:
+# Notes:
 
+## Average predictions:
 Average Celt-X Ontario bot: 
 <img width="449" alt="image" src="https://github.com/0Domlightning0/Robotics-Game-2024/assets/99225898/8be1af84-8096-4749-a59f-3731737dc627">
 
+## Score vs Avg times (Travel time is counted as time travelling one way)
 Score 5:   Average Pickup: 6.62286   Average Shooting: 6.65143    Average Travel: 7.93143
 
 Score 6:   Average Pickup: 5.77239   Average Shooting: 5.63806    Average Travel: 7.40672
