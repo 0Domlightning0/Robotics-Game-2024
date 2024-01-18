@@ -132,7 +132,7 @@ int main()
 
 	double Total = 0, TotalPickup = 0, TotalShooting = 0, TotalTravel = 0;
 
-	for (int k = 5; k < 40; k++) {
+	for (int k = 3; k < 40; k++) {
 
 		double Total = 0, TotalPickup = 0, TotalShooting = 0, TotalTravel = 0;
 
@@ -142,9 +142,9 @@ int main()
 
 			Total = 0;
 
-			Shooter1.AvgPickupTime = ((rand() % (9))+1);
-			Shooter1.AvgShootingTime = ((rand() % (9))+1);
-			Shooter1.AvgTravelTime = ((rand() % (9))+1);
+			Shooter1.AvgPickupTime = ((rand() % (9)) + 1);
+			Shooter1.AvgShootingTime = ((rand() % (9)) + 1);
+			Shooter1.AvgTravelTime = ((rand() % (9)) + 2);
 			Shooter1.Consistancy = 3;
 
 			for (int j = 0; j < Simualtions; j++) {
@@ -179,5 +179,5 @@ int main()
 		cout << "Score " << k << ":   Average Pickup: " << resaults[k][0] << "   Average Shooting: " << resaults[k][1] << "    Average Travel: " << resaults[k][2] << endl << endl;
 	}
 
-	
+
 }
