@@ -4,6 +4,8 @@
 Average Celt-X Ontario bot: 
 <img width="720" alt="image" src="https://github.com/0Domlightning0/Robotics-Game-2024/assets/99225898/fc5f8c99-eb11-41ea-9d79-10ea948b9ca5">
 
+Average Celt-X Houston bot: 
+
 
 ## Score vs Avg times (Travel time is counted as time travelling one way) (100% Shot Rate)
 Score 4:   Average Pickup: 9   Average Shooting: 9    Average Travel: 9    Total cycle time: 36
