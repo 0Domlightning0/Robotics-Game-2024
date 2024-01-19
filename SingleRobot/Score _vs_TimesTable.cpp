@@ -126,9 +126,9 @@ int main()
 
 	int minscore = 0, maxscore = 0, rows = 0;
 
-	int Iterations = 1000, Simualtions = 500;
+	int Iterations = 9000, Simualtions = 1000;
 
-	double array[1000][3], resaults[50][3];
+	double array[10000][3], resaults[50][3];
 
 	double Total = 0, TotalPickup = 0, TotalShooting = 0, TotalTravel = 0;
 
@@ -145,7 +145,7 @@ int main()
 			Shooter1.AvgPickupTime = ((rand() % (9)) + 1);
 			Shooter1.AvgShootingTime = ((rand() % (9)) + 1);
 			Shooter1.AvgTravelTime = ((rand() % (9)) + 2);
-			Shooter1.Consistancy = 3;
+			Shooter1.Consistancy = 4;
 
 			for (int j = 0; j < Simualtions; j++) {
 				Total += Shooter1.ShooterGameSimTele();
@@ -154,14 +154,11 @@ int main()
 
 			if ((Total / Simualtions) >= minscore and (Total / Simualtions) <= maxscore) {
 
-				array[i][0] = Shooter1.AvgPickupTime;
-				array[i][1] = Shooter1.AvgShootingTime;
-				array[i][2] = Shooter1.AvgTravelTime;
-				//cout << array[i][0] << endl;
+				//cout << Total / Simualtions << endl;
 
-				TotalPickup += array[i][0];
-				TotalShooting += array[i][1];
-				TotalTravel += array[i][2];
+				TotalPickup += Shooter1.AvgPickupTime;
+				TotalShooting += Shooter1.AvgShootingTime;
+				TotalTravel += Shooter1.AvgTravelTime;
 
 				rows += 1;
 				//cout << rows << endl;
@@ -176,7 +173,7 @@ int main()
 		resaults[k][1] = TotalShooting / rows;
 		resaults[k][2] = TotalTravel / rows;
 
-		cout << "Score " << k << ":   Average Pickup: " << resaults[k][0] << "   Average Shooting: " << resaults[k][1] << "    Average Travel: " << resaults[k][2] << endl << endl;
+		cout << "Score " << k << ":   Average Pickup: " << resaults[k][0] << "   Average Shooting: " << resaults[k][1] << "    Average Travel: " << resaults[k][2] << "   Total cycle time: " << TotalPickup / rows + TotalShooting / rows + 2 * TotalTravel / rows << endl << endl;
 	}
 
 
