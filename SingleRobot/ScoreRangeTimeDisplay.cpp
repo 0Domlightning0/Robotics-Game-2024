@@ -7,13 +7,14 @@
 #include <time.h>
 #include <random>
 #include <windows.h>
+#include <iomanip>
 
 using namespace std;
 
 
 class Robot {
 public:
-
+	// Variables applicable for all robots
 	int AvgPickupTime, AvgTravelTime, time = 135, Count = 0, Pcount = 0, PointsScored = 0, PiecesScored = 0;
 
 	bool HaveRing = false, AtSource = false;
@@ -124,50 +125,55 @@ int main()
 
 	Shooter Shooter1;
 
-	int minscore = 12, maxscore = 24, rows = 0;
+	// Score range	
+	int minscore = 5, maxscore = 6, rows = 0;
 
-	int Iterations = 1000, Simualtions = 500;
+	// Iterations = how accurate the average of the total will be
+	// Simualtions = how accurate the average score of one game will be
+	int Iterations = 2000, Simualtions = 500;
 
-	double array[1000][3], resaults[50][3];
+	double array[10000][3];
 
 	double Total = 0, TotalPickup = 0, TotalShooting = 0, TotalTravel = 0;
 
-		for (int i = 0; i < Iterations; i++) {
+	for (int i = 0; i < Iterations; i++) {
 
-			Total = 0;
+		Total = 0;
 
-			Shooter1.AvgPickupTime = ((rand() % (9))+1);
-			Shooter1.AvgShootingTime = ((rand() % (9))+1);
-			Shooter1.AvgTravelTime = ((rand() % (9))+2);
-			Shooter1.Consistancy = 3;
+		Shooter1.AvgPickupTime = ((rand() % (9)) + 1);
+		Shooter1.AvgShootingTime = ((rand() % (9)) + 1);
+		Shooter1.AvgTravelTime = ((rand() % (9)) + 2);
+		Shooter1.Consistancy = 3;
 
-			for (int j = 0; j < Simualtions; j++) {
-				Total += Shooter1.ShooterGameSimTele();
-
-			}
-
-			if ((Total / Simualtions) >= minscore and (Total / Simualtions) <= maxscore) {
-
-				array[i][0] = Shooter1.AvgPickupTime;
-				array[i][1] = Shooter1.AvgShootingTime;
-				array[i][2] = Shooter1.AvgTravelTime;
-				//cout << array[i][0] << endl;
-
-				TotalPickup += array[i][0];
-				TotalShooting += array[i][1];
-				TotalTravel += array[i][2];
-
-				rows += 1;
-				//cout << rows << endl;
-			}
-
-
-
+		for (int j = 0; j < Simualtions; j++) {
+			Total += Shooter1.ShooterGameSimTele();
 
 		}
+		//cout << Total / Simualtions << endl;
+		if ((Total / Simualtions) >= minscore and (Total / Simualtions) <= maxscore) {
 
-		
-		cout << "Score Range " << minscore << " To " << maxscore << ":   Average Pickup: " << TotalPickup / rows << "   Average Shooting: " << TotalShooting / rows << "    Average Travel: " << TotalTravel / rows << endl << endl;
+			array[i][0] = Shooter1.AvgPickupTime;
+			array[i][1] = Shooter1.AvgShootingTime;
+			array[i][2] = Shooter1.AvgTravelTime;
+			//cout << array[i][0] << endl;
 
-	
+			TotalPickup += array[i][0];
+			TotalShooting += array[i][1];
+			TotalTravel += array[i][2];
+
+			rows += 1;
+
+			//cout << Total / Simualtions << "within" << Shooter1.AvgPickupTime << " " << Shooter1.AvgShootingTime << " " << Shooter1.AvgTravelTime << endl;
+			//cout << rows << endl;
+		}
+
+
+
+
+	}
+
+	cout << setprecision(3) << endl << endl;
+	cout << "Score Range " << minscore << " To " << maxscore << ":   Average Pickup: " << TotalPickup / rows << "   Average Shooting: " << TotalShooting / rows << "    Average Travel: " << TotalTravel / rows << "   Total cycle time: " << TotalPickup / rows + TotalShooting / rows + 2 * TotalTravel / rows << endl << endl;
+
+
 }
