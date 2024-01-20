@@ -14,8 +14,10 @@ Average Celt-X Einstein bot:
 
 
 ## Dom's Thoughts
-- In 2023 our fastest travel time across the field was 2.2 sec (meep meep), I dont see robots getting there faster than 3 sec
-- I dont believe that more than 16 cycles (32 points) from the source is possible
+- In 2023 our fastest travel time across the field was 2.2 sec (meep meep), I dont see robots getting there faster than 2.5 sec with other robots
+- I dont believe that more than 16 cycles (32 points) from the source is possible, this would require consistant cycles faster than 7 sec
+- Travel speed and Consistancy(Shot conversion) were the variables that made the most impact
+- Hoarding/Planning is nessesary when trying to fully use a boost
 - 
 ## Score vs Avg times (Travel time is counted as time travelling one way) (100% Shot Rate)
 Score 4:   Average Pickup: 9   Average Shooting: 9    Average Travel: 9    Total cycle time: 36
@@ -76,7 +78,7 @@ Score 31:   Average Pickup: 3.12264   Average Shooting: 2.9434    Average Travel
 
 Score 32:   Average Pickup: 3.1907   Average Shooting: 3.00465    Average Travel: 1.90233    Total cycle time: 10
  
-## Score vs Avg times (Travel time is counted as time travelling one way) (90% Shot Rate)
+## Score vs Avg times (Travel time is counted as time travelling one way) (90% Shot Rate) ( min Pickup = 0, min Shooting = 0, min Travel = 3)
 Score 8:   Average Pickup: 4.40159   Average Shooting: 4.57313    Average Travel: 8.02132   Total cycle time: 25.0174
 
 Score 9:   Average Pickup: 4.2455   Average Shooting: 4.67988    Average Travel: 7.11683   Total cycle time: 23.159
