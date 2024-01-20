@@ -7,8 +7,8 @@ Average Celt-X Ontario bot:
 Average Celt-X Houston bot: 
 
 ## Dom's Thoughts
-- In 2023 our fastest travel time across the field was 2.2 sec (meep meep)
-- I dont believe that more than 15 cycles from the source is possible
+- In 2023 our fastest travel time across the field was 2.2 sec (meep meep), I dont see robots getting there faster than 3 sec
+- I dont believe that more than 16 cycles (32 points) from the source is possible
 - 
 ## Score vs Avg times (Travel time is counted as time travelling one way) (100% Shot Rate)
 Score 4:   Average Pickup: 9   Average Shooting: 9    Average Travel: 9    Total cycle time: 36
@@ -70,59 +70,69 @@ Score 31:   Average Pickup: 3.12264   Average Shooting: 2.9434    Average Travel
 Score 32:   Average Pickup: 3.1907   Average Shooting: 3.00465    Average Travel: 1.90233    Total cycle time: 10
  
 ## Score vs Avg times (Travel time is counted as time travelling one way) (90% Shot Rate)
-Score 4:   Average Pickup: 7.61364   Average Shooting: 7.64091    Average Travel: 10.5455   Total cycle time: 36.3455
+Score 8:   Average Pickup: 4.40159   Average Shooting: 4.57313    Average Travel: 8.02132   Total cycle time: 25.0174
 
-Score 5:   Average Pickup: 7.09071   Average Shooting: 7.09513    Average Travel: 10.2146   Total cycle time: 34.615
+Score 9:   Average Pickup: 4.2455   Average Shooting: 4.67988    Average Travel: 7.11683   Total cycle time: 23.159
 
-Score 6:   Average Pickup: 5.91471   Average Shooting: 5.83866    Average Travel: 9.37605   Total cycle time: 30.5055
+Score 10:   Average Pickup: 3.87509   Average Shooting: 4.84438    Average Travel: 6.1933   Total cycle time: 21.1061
 
-Score 7:   Average Pickup: 5.41871   Average Shooting: 5.43132    Average Travel: 8.84041   Total cycle time: 28.5309
+Score 11:   Average Pickup: 3.79805   Average Shooting: 4.53852    Average Travel: 5.61314   Total cycle time: 19.5629
 
-Score 8:   Average Pickup: 5.04274   Average Shooting: 5.05006    Average Travel: 7.45861   Total cycle time: 25.01
+Score 12:   Average Pickup: 3.53564   Average Shooting: 4.11485    Average Travel: 5.46139   Total cycle time: 18.5733
 
-Score 9:   Average Pickup: 5.05631   Average Shooting: 5.06951    Average Travel: 6.41223   Total cycle time: 22.9503
+Score 13:   Average Pickup: 2.92122   Average Shooting: 4.04828    Average Travel: 5.23634   Total cycle time: 17.4422
 
-Score 10:   Average Pickup: 4.64752   Average Shooting: 4.91717    Average Travel: 5.56832   Total cycle time: 20.7013
+Score 14:   Average Pickup: 2.89736   Average Shooting: 3.72727    Average Travel: 4.84018   Total cycle time: 16.305
 
-Score 11:   Average Pickup: 4.59674   Average Shooting: 4.4934    Average Travel: 4.97591   Total cycle time: 19.042
+Score 15:   Average Pickup: 2.32283   Average Shooting: 3.63976    Average Travel: 4.75   Total cycle time: 15.4626
 
-Score 12:   Average Pickup: 4.51097   Average Shooting: 3.95925    Average Travel: 4.71473   Total cycle time: 17.8997
+Score 16:   Average Pickup: 2.15493   Average Shooting: 3.53169    Average Travel: 4.6162   Total cycle time: 14.919
 
-Score 13:   Average Pickup: 4.02806   Average Shooting: 3.9616    Average Travel: 4.27326   Total cycle time: 16.5362
+Score 17:   Average Pickup: 2.21583   Average Shooting: 3.30935    Average Travel: 4.20504   Total cycle time: 13.9353
 
-Score 14:   Average Pickup: 3.69908   Average Shooting: 3.57248    Average Travel: 4.13028   Total cycle time: 15.5321
+Score 18:   Average Pickup: 2.09091   Average Shooting: 3.04848    Average Travel: 3.91212   Total cycle time: 12.9636
 
-Score 15:   Average Pickup: 3.23502   Average Shooting: 3.51152    Average Travel: 3.9447   Total cycle time: 14.6359
+Score 19:   Average Pickup: 1.41358   Average Shooting: 3.14815    Average Travel: 4.14815   Total cycle time: 12.858
 
-Score 16:   Average Pickup: 3.15301   Average Shooting: 3.15301    Average Travel: 3.84699   Total cycle time: 14
+Score 20:   Average Pickup: 1.16667   Average Shooting: 3.03509    Average Travel: 3.96491   Total cycle time: 12.1316
 
-Score 17:   Average Pickup: 3.0113   Average Shooting: 2.72316    Average Travel: 3.70056   Total cycle time: 13.1356
+Score 21:   Average Pickup: 1   Average Shooting: 3.17241    Average Travel: 3.85345   Total cycle time: 11.8793
 
-Score 18:   Average Pickup: 2.548   Average Shooting: 2.716    Average Travel: 3.66   Total cycle time: 12.584
+Score 22:   Average Pickup: 0.435484   Average Shooting: 2.85484    Average Travel: 4.09677   Total cycle time: 11.4839
 
-Score 19:   Average Pickup: 2.27184   Average Shooting: 2.7767    Average Travel: 3.47573   Total cycle time: 12
+Score 23:   Average Pickup: 1   Average Shooting: 2.08046    Average Travel: 3.87356   Total cycle time: 10.8276
 
-Score 20:   Average Pickup: 2.12162   Average Shooting: 2.27027    Average Travel: 3.31081   Total cycle time: 11.0135
+Score 24:   Average Pickup: 1.2623   Average Shooting: 1.86885    Average Travel: 3.67213   Total cycle time: 10.4754
 
-Score 21:   Average Pickup: 2.0274   Average Shooting: 2.28767    Average Travel: 3.34247   Total cycle time: 11
+Score 25:   Average Pickup: 0.627451   Average Shooting: 2.64706    Average Travel: 3.29412   Total cycle time: 9.86275
 
-Score 22:   Average Pickup: 1.30769   Average Shooting: 1.76923    Average Travel: 3.46154   Total cycle time: 10
+Score 26:   Average Pickup: 0.777778   Average Shooting: 2.02222    Average Travel: 3.44444   Total cycle time: 9.68889
 
-Score 23:   Average Pickup: 1.59524   Average Shooting: 1.97619    Average Travel: 3.21429   Total cycle time: 10
+Score 27:   Average Pickup: 0.0689655   Average Shooting: 1.37931    Average Travel: 4.55172   Total cycle time: 10.5517
 
-Score 24:   Average Pickup: 1.93333   Average Shooting: 1.8    Average Travel: 3.13333   Total cycle time: 10
+Score 28:   Average Pickup: 0   Average Shooting: 2.29412    Average Travel: 3.70588   Total cycle time: 9.70588
 
-Score 25:   Average Pickup: 1.3913   Average Shooting: 1.6087    Average Travel: 3   Total cycle time: 9
-
-Score 26:   Average Pickup: 1.48   Average Shooting: 1.52    Average Travel: 3   Total cycle time: 9
-
-Score 27:   Average Pickup: 1.25   Average Shooting: 1.75    Average Travel: 3   Total cycle time: 9
-
-Score 28:   Average Pickup: -nan(ind)   Average Shooting: -nan(ind)    Average Travel: -nan(ind)   Total cycle time: -nan(ind)
-
-Score 29:   Average Pickup: 1   Average Shooting: 1    Average Travel: 3   Total cycle time: 8
+Score 29:   Average Pickup: 0.612903   Average Shooting: 1.70968    Average Travel: 3.06452   Total cycle time: 8.45161
 
 Score 30:   Average Pickup: 1   Average Shooting: 1    Average Travel: 3   Total cycle time: 8
+
+Score 31:   Average Pickup: 0   Average Shooting: 1    Average Travel: 4   Total cycle time: 9
+
+Score 32:   Average Pickup: 0   Average Shooting: 1.08333    Average Travel: 3.91667   Total cycle time: 8.91667
+
+Score 33:   Average Pickup: 0   Average Shooting: 1.88889    Average Travel: 3.11111   Total cycle time: 8.11111
+
+Score 34:   Average Pickup: 0   Average Shooting: 2    Average Travel: 3   Total cycle time: 8
+
+Score 35:   Average Pickup: -nan(ind)   Average Shooting: -nan(ind)    Average Travel: -nan(ind)   Total cycle time: -nan(ind)
+
+Score 36:   Average Pickup: -nan(ind)   Average Shooting: -nan(ind)    Average Travel: -nan(ind)   Total cycle time: -nan(ind)
+
+Score 37:   Average Pickup: -nan(ind)   Average Shooting: -nan(ind)    Average Travel: -nan(ind)   Total cycle time: -nan(ind)
+
+Score 38:   Average Pickup: -nan(ind)   Average Shooting: -nan(ind)    Average Travel: -nan(ind)   Total cycle time: -nan(ind)
+
+Score 39:   Average Pickup: 0   Average Shooting: 1    Average Travel: 3   Total cycle time: 7
 
 ## Score vs Avg times (Travel time is counted as time travelling one way) (80% Shot Rate)
 
