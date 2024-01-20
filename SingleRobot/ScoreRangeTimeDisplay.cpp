@@ -15,7 +15,7 @@ using namespace std;
 class Robot {
 public:
 	// Variables applicable for all robots
-	int AvgPickupTime, AvgTravelTime, time = 135, Count = 0, Pcount = 0, PointsScored = 0, PiecesScored = 0;
+	int AvgPickupTime, AvgTravelTime, time = 125, Count = 0, Pcount = 0, PointsScored = 0, PiecesScored = 0;
 
 	bool HaveRing = false, AtSource = false;
 };
