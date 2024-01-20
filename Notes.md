@@ -3,11 +3,14 @@
 ## Average predictions:
 Average Celt-X Ontario bot: 
 
-<img width="824" alt="image" src="https://github.com/0Domlightning0/Robotics-Game-2024/assets/99225898/61df0692-33ef-45cd-8e67-cc930ace2135">
+<img width="820" alt="image" src="https://github.com/0Domlightning0/Robotics-Game-2024/assets/99225898/599f50bf-8056-46be-b6e5-ea4cf8f8dd65">
 
 
 Average Celt-X Houston bot:  
 <img width="836" alt="image" src="https://github.com/0Domlightning0/Robotics-Game-2024/assets/99225898/3e745a79-282d-4086-b6a3-454b0c488041">
+
+Average Celt-X Einstein bot:
+
 
 
 ## Dom's Thoughts
