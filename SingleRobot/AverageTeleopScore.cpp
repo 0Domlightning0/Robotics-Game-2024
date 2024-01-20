@@ -14,7 +14,7 @@ using namespace std;
 class Robot {
 public:
 
-	int AvgPickupTime, AvgTravelTime, time = 135, Count = 0, Pcount = 0, PointsScored = 0, PiecesScored = 0;
+	int AvgPickupTime, AvgTravelTime, time = 125, Count = 0, Pcount = 0, PointsScored = 0, PiecesScored = 0;
 
 	bool HaveRing = false, AtSource = false;
 };
@@ -120,9 +120,9 @@ int main()
 	srand(time(NULL));
 
 	Shooter Shooter1;
-	Shooter1.AvgPickupTime = 4;
-	Shooter1.AvgShootingTime = 4;
-	Shooter1.AvgTravelTime = 7;
+	Shooter1.AvgPickupTime = 5;
+	Shooter1.AvgShootingTime = 5;
+	Shooter1.AvgTravelTime = 4;
 	Shooter1.Consistancy = 3;
 
 	int Iterations = 200000;
