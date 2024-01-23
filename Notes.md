@@ -20,7 +20,7 @@ Average Celt-X Einstein bot:
 - I dont believe that more than 20 cycles (40 points) from the source is possible, this would require consistant cycles faster than 8 sec
 - Travel speed and Consistancy(Shot conversion) were the variables that made the most impact
 - Hoarding/Planning is nessesary when trying to fully use a boost as regular cycle times would not allow it
-- With the average Ontario bot scoring 4-7 pieces per game, the co-operatition button is likely nessesary
+- With the average Ontario bot scoring 4-7 pieces per game (theoretically) , the co-operatition button is likely nessesary
 - The game piece RP is always lacking, 2022, 2023, 2020 etc...
   
 ## Score vs Avg times (Travel time is counted as time travelling one way) (100% Shot Rate)( min Pickup = 1, min Shooting = 1, min Travel = 3)
