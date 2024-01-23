@@ -10,7 +10,7 @@ Average Celt-X Houston bot:
 <img width="840" alt="image" src="https://github.com/0Domlightning0/Robotics-Game-2024/assets/99225898/5cae7082-962f-4641-8f7a-31259fb2f30c">
 
 
-Average Celt-X Einstein bot (simulation couldnt get to 30): 
+Average Celt-X Einstein bot: 
 
 <img width="839" alt="image" src="https://github.com/0Domlightning0/Robotics-Game-2024/assets/99225898/752064c6-f60a-4869-92a1-96d1bbc173fb">
 
