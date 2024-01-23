@@ -19,7 +19,7 @@ Average Celt-X Einstein bot:
 - In 2023 our fastest travel time across the field was 2.2 sec (meep meep), I dont see robots getting there faster than 2.5 sec with other robots
 - I dont believe that more than 20 cycles (40 points) from the source is possible, this would require consistant cycles faster than 8 sec
 - Travel speed and Consistancy(Shot conversion) were the variables that made the most impact
-- Hoarding/Planning is nessesary when trying to fully use a boost
+- Hoarding/Planning is nessesary when trying to fully use a boost as regular cycle times would not allow it
 - With the average Ontario bot scoring 4-7 pieces per game, the co-operatition button is likely nessesary
 - The game piece RP is always lacking, 2022, 2023, 2020 etc...
   
