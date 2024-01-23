@@ -18,13 +18,13 @@ Average Celt-X Einstein bot (simulation couldnt get to 30):
 
 ## Dom's Thoughts
 - In 2023 our fastest travel time across the field was 2.2 sec (meep meep), I dont see robots getting there faster than 2.5 sec with other robots
-- I dont believe that more than 16 cycles (32 points) from the source is possible, this would require consistant cycles faster than 7 sec
+- I dont believe that more than 18 cycles (36 points) from the source is possible, this would require consistant cycles faster than 7 sec
 - Travel speed and Consistancy(Shot conversion) were the variables that made the most impact
 - Hoarding/Planning is nessesary when trying to fully use a boost
 - With the average Ontario bot scoring 4-7 pieces per game, the co-operatition button is likely nessesary
-- The game piece RP is always lacking
+- The game piece RP is always lacking, 2022, 2023, 2020 etc...
   
-## Score vs Avg times (Travel time is counted as time travelling one way) (100% Shot Rate)
+## Score vs Avg times (Travel time is counted as time travelling one way) (100% Shot Rate)( min Pickup = 1, min Shooting = 1, min Travel = 3)
 
  Score 3:   Average Pickup: -nan(ind)   Average Shooting: -nan(ind)    Average Travel: -nan(ind)   Total cycle time: -nan(ind)
 
@@ -102,7 +102,7 @@ Score 39:   Average Pickup: 1   Average Shooting: 1    Average Travel: 3   Total
 
 
 
-## Score vs Avg times (Travel time is counted as time travelling one way) (90% Shot Rate) ( min Pickup = 0, min Shooting = 0, min Travel = 3)
+## Score vs Avg times (Travel time is counted as time travelling one way) (90% Shot Rate) ( min Pickup = 1, min Shooting = 1, min Travel = 3)
 Score 3:   Average Pickup: -nan(ind)   Average Shooting: -nan(ind)    Average Travel: -nan(ind)   Total cycle time: -nan(ind)
 
 Score 4:   Average Pickup: 7.04079   Average Shooting: 7.15734    Average Travel: 10.2995   Total cycle time: 34.7972
@@ -169,7 +169,7 @@ Score 34:   Average Pickup: -nan(ind)   Average Shooting: -nan(ind)    Average T
 
 
 
-## Score vs Avg times (Travel time is counted as time travelling one way) (80% Shot Rate)
+## Score vs Avg times (Travel time is counted as time travelling one way) (80% Shot Rate)( min Pickup = 1, min Shooting = 1, min Travel = 3)
 Score 3:   Average Pickup: 6.98109   Average Shooting: 7.11123    Average Travel: 10.218   Total cycle time: 34.5284
 
 Score 4:   Average Pickup: 6.24251   Average Shooting: 6.151    Average Travel: 9.68344   Total cycle time: 31.7604
